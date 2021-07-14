@@ -1,10 +1,15 @@
-import './App.css';
 import React from 'react';
-import Homepage from './components/Homepage';
+import PortfolioContainer from './components/PortfolioContainer';
+import GlobalStyle from "./components/GlobalStyle";
 
 
 function App() {
-  return <Homepage />;
+  return (
+    <div>
+      <GlobalStyle />
+      <PortfolioContainer />
+    </div>
+    );
 }
 
 export default App;
