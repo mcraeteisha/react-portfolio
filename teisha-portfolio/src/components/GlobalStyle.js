@@ -23,18 +23,27 @@ body {
     color: var(--accent-color);
     max-width: 80%
     display: flex;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
 
 h1 {
     font-size: 4rem;
     color: var(--second-color);
+    font-family: 'Playfair Display', serif;
 }
+
 h2 {
     font-size: 3rem;
     color: var(--emphasis-color);
+    font-family: 'Playfair Display', serif;
 }
+
 h3 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+h4 {
     font-size: 2rem;
 }
 
