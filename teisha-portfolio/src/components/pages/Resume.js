@@ -1,9 +1,12 @@
 import React from 'react';
+import Styled from 'styled-components';
 
 export default function Resume() {
   return (
     <div>
-      <h1>Download my Resume</h1>
+    <HeaderDiv>
+      <h1>Download My Resume</h1>
+    </HeaderDiv>  
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
@@ -15,3 +18,8 @@ export default function Resume() {
     </div>
   );
 }
+
+const HeaderDiv = Styled.h1
+`
+  padding-left: 50px;
+`

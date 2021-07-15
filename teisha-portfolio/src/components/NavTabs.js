@@ -12,7 +12,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-          About
+          About<Span>.</Span>
         </a>
       </li>
       <li className="nav-item">
@@ -22,7 +22,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
-          Portfolio
+          Portfolio<Span>.</Span>
         </a>
       </li>
       <li className="nav-item">
@@ -32,7 +32,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
-          Contact
+          Contact<Span>.</Span>
         </a>
       </li>
       <li className="nav-item">
@@ -42,7 +42,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
         >
-          Resume
+          Resume<Span>.</Span>
         </a>
       </li>
     </ul>
@@ -55,8 +55,10 @@ const NavStyle = Styled.nav
   min-height: 10vh;
   display: flex;
   margin: auto;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  padding-right: 50px;
   a {
       color: #EFEFEF;
       text-decoration: none;
@@ -70,7 +72,16 @@ const NavStyle = Styled.nav
   li {
       padding-left: 5rem;
   }
+  .active {
+    color: #31cfff;
+  }
   `
+
+const Span = Styled.span
+  `
+  color: #fc4384;
+  `  
+
 
 export default NavTabs;
 

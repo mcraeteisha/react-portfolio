@@ -4,7 +4,9 @@ import Styled from 'styled-components';
 export default function Contact() {
   return (
     <div>
+      <HeaderDiv>
       <h1>Contact Me</h1>
+      </HeaderDiv>
       <p>
         <Form>
           <InsideForm>
@@ -19,7 +21,7 @@ export default function Contact() {
             </FormGroup>
             <FormGroup>
             <FormLabel>Message:</FormLabel>
-              <FormInput type="message" name="message" id="message"/>
+              <MessageTextArea/>
             </FormGroup>
           </InsideForm>
         </Form>
@@ -44,6 +46,10 @@ const InsideForm = Styled.div
     background: #ffffff;
     color: #0A1931;
 `
+const HeaderDiv = Styled.h1
+`
+  padding-left: 50px;
+`
 
 const FormGroup = Styled.div
     `
@@ -55,7 +61,7 @@ const FormGroup = Styled.div
 
 const FormHeader = Styled.h2
     `
-    padding: 2rem 0;
+    padding: 1rem 0;
 `
 
 const FormLabel = Styled.label
@@ -69,6 +75,14 @@ const FormInput = Styled.input
     width: 100%;
     padding: 10px 15px;
     background-color: #EFEFEF;
-    border-radius: 6px;
+    border-radius: 2px;
     transition: 0.4s;
 `
+const MessageTextArea = Styled.textarea
+    `
+    height: 100px;
+    width: 100%;
+    background-color: #EFEFEF;
+    border-radius: 2px;
+    transition: 0.4s;
+    `

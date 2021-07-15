@@ -40,7 +40,7 @@ const LeadIn = Styled.h2
 `
 const BodyCopy = Styled.h4
 `
-  padding-left: 50px;
+  padding: 0 50px 0px 50px;
   color: #ffffff;
 `
 const Span = Styled.span
