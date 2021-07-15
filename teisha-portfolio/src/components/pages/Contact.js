@@ -38,6 +38,7 @@ const Form = Styled.form
     align-items: center;
     text-align: left;
 `
+
 const InsideForm = Styled.div
     `
     display: block;
@@ -46,6 +47,7 @@ const InsideForm = Styled.div
     background: #ffffff;
     color: #0A1931;
 `
+
 const HeaderDiv = Styled.h1
 `
   padding-left: 50px;
@@ -69,6 +71,7 @@ const FormLabel = Styled.label
     display: block;
     margin-bottom: 5px;
 `
+
 const FormInput = Styled.input
     `
     display: block;
@@ -78,6 +81,7 @@ const FormInput = Styled.input
     border-radius: 2px;
     transition: 0.4s;
 `
+
 const MessageTextArea = Styled.textarea
     `
     height: 100px;

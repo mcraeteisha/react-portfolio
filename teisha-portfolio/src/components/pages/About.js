@@ -38,25 +38,30 @@ const LeadIn = Styled.h2
 `
   padding-left: 50px;
 `
+
 const BodyCopy = Styled.h4
 `
   padding: 0 50px 0px 50px;
   color: #ffffff;
 `
+
 const Span = Styled.span
 `
   color: #31cfff;
   text-decoration: underline;
   text-decoration-color: #fc4384;
 `
+
 const Span2 = Styled.span
 `
   color: #31cfff;
 `
+
 const HeadshotDiv = Styled.div
 `
   float: left;
 `
+
 const Image = Styled.img
 `
   max-width: 100%;
