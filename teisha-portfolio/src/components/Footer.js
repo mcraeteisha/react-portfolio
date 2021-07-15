@@ -23,11 +23,6 @@ function Footer() {
 
 const StyledFooter = Styled.footer
   `
-  padding-top: 15px;
-  height: 50px;
-  margin-top: auto;
-
-
   a {
       color: #000000;
       text-decoration: none;

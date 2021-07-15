@@ -23,7 +23,13 @@ body {
     color: var(--accent-color);
     max-width: 80%
     display: flex;
+    width: 100%;
+    height: 100%;
     font-family: 'Cabin', sans-serif;
+}
+
+footer {
+    flex-shrink: 0;
 }
 
 h1 {
