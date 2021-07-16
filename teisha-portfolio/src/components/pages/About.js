@@ -10,13 +10,16 @@ export default function About() {
       <HeaderDiv>
         <Header />
       </HeaderDiv>
+      <HeadshotDiv>
+      <Image src={Teisha} alt="Teisha-Headshot" style={{height: "35vh", display: "inline-block"}}></Image>
+      </HeadshotDiv>
       <br/>
       <LeadIn>Hi there<Span2>,</Span2> I'm Teisha<Span2>.</Span2>👋🏽</LeadIn>
       <LeadIn>Software Developer <Span2>&</Span2> QA Lead<Span2>.</Span2> 👩🏽‍💻</LeadIn>
       <br/>
-      <HeadshotDiv>
+      {/* <HeadshotDiv>
       <Image src={Teisha} alt="Barbara-Profile-pic" style={{height: "23vh", borderRadius: "50%", display: "inline-block", margin: "4% 4%"}}></Image>
-      </HeadshotDiv>
+      </HeadshotDiv> */}
       <body>
       <BodyCopy>
       I'm a <Span>UNC-Chapel Hill Full Stack Coding Bootcamp</Span> student building <Span>full-stack applications</Span> with <Span>HTML, CSS, JavaScript, React,</Span> and more.<br/><br/>
@@ -59,11 +62,11 @@ const Span2 = Styled.span
 
 const HeadshotDiv = Styled.div
 `
-  float: left;
+  float: right;
+  padding-right: 50px;
 `
 
 const Image = Styled.img
 `
-  max-width: 100%;
-  height: auto;
+  border: 10px solid #fc4384;
 `

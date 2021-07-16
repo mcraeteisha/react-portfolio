@@ -59,10 +59,10 @@ span {
 
 button {
 padding: 1rem 2rem;
-margin: 2rem 0;
-background:var(--emphasis-color);
-color: var(--second-color);
+background-color: var(--accent-color);
+color: var(--primary-color);
 border: none;
+border-radius: 5px;
 font-size: 1rem;
 font-weight: bold;
 text-decoration: none;
@@ -70,8 +70,8 @@ cursor: pointer;
 text-transform: uppercase;
 transition: all 0.5s ease;
 &:hover{
-    background-color: var(--accent-color);
-    color: var(--primary-color);
+    background:var(--emphasis-color);
+    color: #ffffff;
 }
 
 `;

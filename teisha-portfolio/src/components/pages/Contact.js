@@ -23,6 +23,7 @@ export default function Contact() {
             <FormLabel>Message:</FormLabel>
               <MessageTextArea/>
             </FormGroup>
+            <button>Submit</button>
           </InsideForm>
         </Form>
       </p>
@@ -43,7 +44,7 @@ const InsideForm = Styled.div
     `
     display: block;
     position: relative;
-    padding: 2rem 3rem;
+    padding: 1rem 3rem;
     background: #ffffff;
     color: #0A1931;
 `
@@ -63,7 +64,7 @@ const FormGroup = Styled.div
 
 const FormHeader = Styled.h2
     `
-    padding: 1rem 0;
+    padding: .5rem 0;
 `
 
 const FormLabel = Styled.label
@@ -78,7 +79,8 @@ const FormInput = Styled.input
     width: 100%;
     padding: 10px 15px;
     background-color: #EFEFEF;
-    border-radius: 2px;
+    border-radius: 3px;
+    border: none;
     transition: 0.4s;
 `
 
@@ -87,6 +89,7 @@ const MessageTextArea = Styled.textarea
     height: 100px;
     width: 100%;
     background-color: #EFEFEF;
-    border-radius: 2px;
+    border-radius: 3px;
+    border: none;
     transition: 0.4s;
     `
