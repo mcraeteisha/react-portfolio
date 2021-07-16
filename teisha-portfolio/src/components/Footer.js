@@ -5,6 +5,7 @@ import Styled from 'styled-components';
 function Footer() {
   return (
     <>
+    <Div>
       <StyledFooter>
       <body>
       <p>
@@ -17,6 +18,7 @@ function Footer() {
       </ul>
       </body>
       </StyledFooter>
+    </Div>
     </>
   );
 }
@@ -25,7 +27,6 @@ const StyledFooter = Styled.footer
   `
   a {
       color: #000000;
-      text-decoration: none;
   }
   a:hover {
       color: #ffffff;
@@ -36,7 +37,7 @@ const StyledFooter = Styled.footer
       list-style: none;
       justify-content: center;
       align-items: center;
-      padding-bottom: 5px;
+      padding-bottom: 10px;
   }
   li {
     padding-left: 5rem;
@@ -44,11 +45,17 @@ const StyledFooter = Styled.footer
   p {
     padding-top: 5px;
     background-color: #31cfff;
-    color: #000000;
+    color: #ffffff;
     padding-left: 5rem;
     display: flex;
     justify-content: center;
   }
   `
+
+const Div = Styled.div
+  `
+  padding-top: 20px;
+  padding-bottom: 0px;
+  `  
 
 export default Footer;

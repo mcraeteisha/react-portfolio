@@ -1,8 +1,9 @@
 import React from 'react';
 import Header from "../Header";
-import Footer from "../Footer";
 import Styled from 'styled-components';
 import Teisha from '../../images/Teisha.png';
+import Footer from "../../components/Footer";
+
 
 export default function About() {
   return (
@@ -27,7 +28,7 @@ export default function About() {
       I'm a <Span>curious, detail-oriented, and thoughtful tinkerer</Span> with a knack for <Span>software bug discovery</Span> and <Span>root cause analysis</Span>. Currently, I thrive on using my <Span>coding skills</Span> to add creative enhancements to <Span>marketing emails and webpages</Span> and I'm excited to take my skills further!
       </BodyCopy>
       </body>
-      {/* <Footer /> */}
+    <Footer />  
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import Styled from 'styled-components';
+import Footer from "../../components/Footer";
 
 export default function Contact() {
   return (
@@ -27,6 +28,7 @@ export default function Contact() {
           </InsideForm>
         </Form>
       </p>
+      <Footer />
     </div>
   );
 }
@@ -38,6 +40,7 @@ const Form = Styled.form
     justify-content: center;
     align-items: center;
     text-align: left;
+    padding-bottom: 20px;
 `
 
 const InsideForm = Styled.div

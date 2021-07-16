@@ -6,6 +6,7 @@ import HTMLPortfolio from '../../images/HTMLPortfolio.png';
 import NoteTaker from '../../images/NoteTaker.png';
 import ProseOrShows from '../../images/ProseOrShows.png';
 import WeatherDashboard from '../../images/WeatherDashboard.png';
+import Footer from "../../components/Footer";
 
 
 export default function Portfolio() {
@@ -88,6 +89,7 @@ export default function Portfolio() {
                     </ProjectLinks>
                 </ProjectBlock>
             </ContentDiv>
+        <Footer />
         </div>
     );
 }
