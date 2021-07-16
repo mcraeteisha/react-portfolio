@@ -1,12 +1,13 @@
 import React from 'react';
 import Styled from 'styled-components';
+import Header from "../Header";
 import Footer from "../../components/Footer";
 
 export default function Contact() {
   return (
     <div>
       <HeaderDiv>
-      <h1>Contact Me</h1>
+      <Header />
       </HeaderDiv>
       <p>
         <Form>
@@ -55,6 +56,7 @@ const InsideForm = Styled.div
 const HeaderDiv = Styled.h1
 `
   padding-left: 50px;
+  padding-bottom: 50px;
 `
 
 const FormGroup = Styled.div

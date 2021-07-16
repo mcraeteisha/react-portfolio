@@ -1,12 +1,14 @@
 import React from 'react';
 import Styled from 'styled-components';
 import TeishaResume from '../../assets/Teisha_McRae_Resume.pdf';
+import Header from "../Header";
 import Footer from "../../components/Footer";
 
 export default function Resume() {
     return (
         <div>
             <HeaderDiv>
+                <Header />
                 <h1>Skills</h1>
             </HeaderDiv>
             <SkillName>HTML</SkillName>

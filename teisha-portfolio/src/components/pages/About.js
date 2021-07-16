@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from "../Header";
 import Styled from 'styled-components';
-import Teisha from '../../images/Teisha.png';
+import Teisha from '../../images/teisha-headshot.png';
 import Footer from "../../components/Footer";
 
 

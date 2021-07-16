@@ -7,13 +7,14 @@ import NoteTaker from '../../images/NoteTaker.png';
 import ProseOrShows from '../../images/ProseOrShows.png';
 import WeatherDashboard from '../../images/WeatherDashboard.png';
 import Footer from "../../components/Footer";
+import Header from "../Header";
 
 
 export default function Portfolio() {
     return (
         <div>
             <HeaderDiv>
-                <h1>What I've Been Working On<Span1>.</Span1><Span2>.</Span2><Span3>.</Span3></h1>
+                <Header />
             </HeaderDiv>
             <ContentDiv>
                 <ProjectBlock>
